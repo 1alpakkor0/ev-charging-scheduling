@@ -88,3 +88,27 @@ The system evaluates algorithms using the following metrics:
 ---
 
 ## Project Structure
+
+```text
+EV-CHARGING-SCHEDULING/
+│
+├── diagrams/                 # System diagrams
+├── results/
+│   ├── figures/             # Generated graphs
+│   ├── experiment_results.csv
+│   └── .gitkeep
+│
+├── src/
+│   ├── __init__.py
+│   ├── heuristics.py
+│   ├── main.py
+│   ├── metrics.py
+│   ├── models.py
+│   ├── plot_results.py
+│   ├── scenarios.py
+│   └── scheduler.py
+│
+├── README.md
+└── requirements.txt
+```
+
