@@ -181,3 +181,10 @@ Graphs are generated using:
 
 ---
 
+## How to Run
+
+```bash
+git clone https://github.com/1alpakkor0/ev-charging-scheduling.git
+cd your-repo
+python experiments.py
+python plots.py
